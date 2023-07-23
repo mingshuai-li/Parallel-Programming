@@ -1,0 +1,40 @@
+Using CPUID GenuineIntel-6-55-4
+Warning:
+UNC_M_CAS_COUNT.RD[UNIT0] event is not supported by the kernel.
+Warning:
+UNC_M_CAS_COUNT.RD[UNIT1] event is not supported by the kernel.
+Warning:
+UNC_M_CAS_COUNT.RD[UNIT2] event is not supported by the kernel.
+Warning:
+UNC_M_CAS_COUNT.RD[UNIT3] event is not supported by the kernel.
+Warning:
+UNC_M_CAS_COUNT.RD[UNIT4] event is not supported by the kernel.
+Warning:
+UNC_M_CAS_COUNT.RD[UNIT5] event is not supported by the kernel.
+Warning:
+UNC_M_CAS_COUNT.WR[UNIT0] event is not supported by the kernel.
+Warning:
+UNC_M_CAS_COUNT.WR[UNIT1] event is not supported by the kernel.
+Warning:
+UNC_M_CAS_COUNT.WR[UNIT2] event is not supported by the kernel.
+Warning:
+UNC_M_CAS_COUNT.WR[UNIT3] event is not supported by the kernel.
+Warning:
+UNC_M_CAS_COUNT.WR[UNIT4] event is not supported by the kernel.
+Warning:
+UNC_M_CAS_COUNT.WR[UNIT5] event is not supported by the kernel.
+cmd_pipe: /hppfs/scratch/0C/h039vap/tmp/amplxe-tmp-h039vap/perf-pipe-1977240-55585637819683174
+
+1977305:perf-sync:ready:SYS=20635518447309628
+failed to read counter UNC_M_CAS_COUNT.RD[UNIT0]
+failed to read counter UNC_M_CAS_COUNT.RD[UNIT1]
+failed to read counter UNC_M_CAS_COUNT.RD[UNIT2]
+failed to read counter UNC_M_CAS_COUNT.RD[UNIT3]
+failed to read counter UNC_M_CAS_COUNT.RD[UNIT4]
+failed to read counter UNC_M_CAS_COUNT.RD[UNIT5]
+failed to read counter UNC_M_CAS_COUNT.WR[UNIT0]
+failed to read counter UNC_M_CAS_COUNT.WR[UNIT1]
+failed to read counter UNC_M_CAS_COUNT.WR[UNIT2]
+failed to read counter UNC_M_CAS_COUNT.WR[UNIT3]
+failed to read counter UNC_M_CAS_COUNT.WR[UNIT4]
+failed to read counter UNC_M_CAS_COUNT.WR[UNIT5]

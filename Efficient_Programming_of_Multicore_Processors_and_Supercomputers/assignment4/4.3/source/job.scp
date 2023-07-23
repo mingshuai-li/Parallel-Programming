@@ -1,0 +1,40 @@
+#!/bin/bash
+
+#SBATCH -J heat
+#SBATCH -o job.out.%j
+#SBATCH -e job.out.%j
+#SBATCH --time=00:10:00
+#SBATCH --account=h039v
+#SBATCH --partition=test
+#SBATCH --nodes=1
+#SBATCH --tasks-per-node=1
+#SBATCH --cpus-per-task=48
+#SBATCH --ear=off
+
+srun sh -c 'if [ $SLURM_LOCALID == 0 ]; then /lrz/sys/tools/dcdb/bin/perfstop.sh; fi'
+module load intel-oneapi-vtune
+export KMP_AFFINITY=granularity=thread,compact,1,0
+#export KMP_AFFINITY=scatter
+#echo $KMP_AFFINITY
+#for i in 1, 2, 4, 8, 12, 16, 24, 32, 48; do
+#echo -e "Thread Number: $i\n"
+export OMP_NUM_THREADS=48
+#module load papi/6.0.0.1-intel21
+#export PAPI_EVENTS="PAPI_TOT_INS,PAPI_TOT_CYC,PAPI_L2_TCM,PAPI_L2_TCA,PAPI_L3_TCM,PAPI_L3_TCA"
+#export PAPI_EVENTS="PAPI_L2_TCR,PAPI_L2_TCW"
+#export PAPI_EVENTS="PAPI_L2_LDM,PAPI_L2_STM"
+#export PAPI_EVENTS="PAPI_L2_ICM,PAPI_L2_DCM"
+#export PAPI_EVENTS="PAPI_L3_TCR,PAPI_L3_TCW"
+#export PAPI_EVENTS="PAPI_L2_ICA,PAPI_L2_DCA"
+#export PAPI_EVENTS="PAPI_L3_ICA,PAPI_L3_DCA"
+#export PAPI_EVENTS="PAPI_VEC_SP,PAPI_SP_OPS"
+#export PAPI_EVENTS="PAPI_VEC_DP,PAPI_DP_OPS"
+#export PAPI_EVENTS="PAPI_L1_TCM"
+#export PAPI_EVENTS="PAPI_TOT_INS"
+#./heat test.dat
+#echo -e "==============================================================\n"
+#done
+vtune -collect memory-access -call-stack-mode user-plus-one -result-dir VtuneData/MemoryAccess -app-working-dir . ./heat test.dat
+vtune -collect uarch-exploration -call-stack-mode user-plus-one -result-dir VtuneData/MicroArchitecture -app-working-dir . ./heat test.dat
+vtune -collect hotspots -call-stack-mode user-plus-one -result-dir VtuneData/Hotspots -app-working-dir . ./heat test.dat
+vtune -collect performance-snapshot -call-stack-mode user-plus-one -result-dir VtuneData/PerformanceSnapshot -app-working-dir . ./heat test.dat

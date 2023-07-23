@@ -1,0 +1,118 @@
+# AMPLXE_PERF_STAT
+# hostname : i01r01c01s12
+# os release : 5.3.18-150300.59.63-default
+# arch : x86_64
+# cpuid : GenuineIntel,6,85,4
+# cpudesc : Intel(R) Xeon(R) Platinum 8174 CPU @ 3.10GHz
+# total memory : 98436708 kB
+# nrcpus online : 96
+# nrcpus avail : 96
+# sibling cores : 0-23,48-71
+# sibling cores : 24-47,72-95
+# sibling threads : 0,48
+# sibling threads : 1,49
+# sibling threads : 2,50
+# sibling threads : 3,51
+# sibling threads : 4,52
+# sibling threads : 5,53
+# sibling threads : 6,54
+# sibling threads : 7,55
+# sibling threads : 8,56
+# sibling threads : 9,57
+# sibling threads : 10,58
+# sibling threads : 11,59
+# sibling threads : 12,60
+# sibling threads : 13,61
+# sibling threads : 14,62
+# sibling threads : 15,63
+# sibling threads : 16,64
+# sibling threads : 17,65
+# sibling threads : 18,66
+# sibling threads : 19,67
+# sibling threads : 20,68
+# sibling threads : 21,69
+# sibling threads : 22,70
+# sibling threads : 23,71
+# sibling threads : 24,72
+# sibling threads : 25,73
+# sibling threads : 26,74
+# sibling threads : 27,75
+# sibling threads : 28,76
+# sibling threads : 29,77
+# sibling threads : 30,78
+# sibling threads : 31,79
+# sibling threads : 32,80
+# sibling threads : 33,81
+# sibling threads : 34,82
+# sibling threads : 35,83
+# sibling threads : 36,84
+# sibling threads : 37,85
+# sibling threads : 38,86
+# sibling threads : 39,87
+# sibling threads : 40,88
+# sibling threads : 41,89
+# sibling threads : 42,90
+# sibling threads : 43,91
+# sibling threads : 44,92
+# sibling threads : 45,93
+# sibling threads : 46,94
+# sibling threads : 47,95
+# process id : 4165014
+;;84479524673;0
+;;99172547640;1
+;;52284108526;2
+;;918319993;3
+;;917918508;4
+;;50520957462;5
+;;21;6
+;;0;7
+;;0;8
+;;12095581;9
+;;11302413676;10
+;;0;11
+;;316009;12
+;;60969218462;13
+;;0;14
+;;0;15
+;;28755613968;16
+;;24333074378;17
+;;21317105994;18
+;;40131231126;19
+;;56746235233;20
+;;9176574274;21
+;;7929422749;22
+;;16522497872;23
+;;210554928;24
+;;693942151;25
+;;19196260;26
+;;51616402709;27
+;;277106228;28
+;;20578637528;29
+;;121896547064;30
+;;3821;31
+;;107;32
+;;1289;33
+;;4532402690;34
+;;4584458938;35
+;;4278378781;36
+;;37218250;37
+;;14247419270;38
+;;51618847878;39
+;;15355241750;40
+;;4295726236;41
+;;280011867;42
+;;345;43
+;;4400;44
+;;15358;45
+;;<not supported>;46
+;;<not supported>;47
+;;<not supported>;48
+;;<not supported>;49
+;;<not supported>;50
+;;<not supported>;51
+;;<not supported>;52
+;;<not supported>;53
+;;<not supported>;54
+;;<not supported>;55
+;;<not supported>;56
+;;<not supported>;57

@@ -1,0 +1,162 @@
+Using CPUID GenuineIntel-6-55-4
+Compression enabled, disabling build id collection at the end of the session.
+path: /dss/dsshome1/0C/h039vap/heatdir/VtuneData/MemoryAccess/data.0
+basename: system-wide.perf
+nr_cblocks: 0
+affinity: SYS
+mmap flush: 1
+comp level: 1
+Problems creating module maps, continuing anyway...
+WARNING: Kernel address maps (/proc/{kallsyms,modules}) are restricted,
+check /proc/sys/kernel/kptr_restrict and /proc/sys/kernel/perf_event_paranoid.
+
+Samples in kernel functions may not be resolved if a suitable vmlinux
+file is not found in the buildid cache or in the vmlinux path.
+
+Samples in kernel modules won't be resolved at all.
+
+If some relocation was applied (e.g. kexec) symbols may be misresolved
+even with a suitable vmlinux or kallsyms file.
+
+mmap size 528384B
+thread 0 monitor: 0 allowed: 0
+thread 1 monitor: 1 allowed: 1
+thread 2 monitor: 2 allowed: 2
+thread 3 monitor: 3 allowed: 3
+thread 4 monitor: 4 allowed: 4
+thread 5 monitor: 5 allowed: 5
+thread 6 monitor: 6 allowed: 6
+thread 7 monitor: 7 allowed: 7
+thread 8 monitor: 8 allowed: 8
+thread 9 monitor: 9 allowed: 9
+thread 10 monitor: 10 allowed: 10
+thread 11 monitor: 11 allowed: 11
+thread 12 monitor: 12 allowed: 12
+thread 13 monitor: 13 allowed: 13
+thread 14 monitor: 14 allowed: 14
+thread 15 monitor: 15 allowed: 15
+thread 16 monitor: 16 allowed: 16
+thread 17 monitor: 17 allowed: 17
+thread 18 monitor: 18 allowed: 18
+thread 19 monitor: 19 allowed: 19
+thread 20 monitor: 20 allowed: 20
+thread 21 monitor: 21 allowed: 21
+thread 22 monitor: 22 allowed: 22
+thread 23 monitor: 23 allowed: 23
+thread 24 monitor: 24 allowed: 24
+thread 25 monitor: 25 allowed: 25
+thread 26 monitor: 26 allowed: 26
+thread 27 monitor: 27 allowed: 27
+thread 28 monitor: 28 allowed: 28
+thread 29 monitor: 29 allowed: 29
+thread 30 monitor: 30 allowed: 30
+thread 31 monitor: 31 allowed: 31
+thread 32 monitor: 32 allowed: 32
+thread 33 monitor: 33 allowed: 33
+thread 34 monitor: 34 allowed: 34
+thread 35 monitor: 35 allowed: 35
+thread 36 monitor: 36 allowed: 36
+thread 37 monitor: 37 allowed: 37
+thread 38 monitor: 38 allowed: 38
+thread 39 monitor: 39 allowed: 39
+thread 40 monitor: 40 allowed: 40
+thread 41 monitor: 41 allowed: 41
+thread 42 monitor: 42 allowed: 42
+thread 43 monitor: 43 allowed: 43
+thread 44 monitor: 44 allowed: 44
+thread 45 monitor: 45 allowed: 45
+thread 46 monitor: 46 allowed: 46
+thread 47 monitor: 47 allowed: 47
+thread 48 monitor: 48 allowed: 48
+thread 49 monitor: 49 allowed: 49
+thread 50 monitor: 50 allowed: 50
+thread 51 monitor: 51 allowed: 51
+thread 52 monitor: 52 allowed: 52
+thread 53 monitor: 53 allowed: 53
+thread 54 monitor: 54 allowed: 54
+thread 55 monitor: 55 allowed: 55
+thread 56 monitor: 56 allowed: 56
+thread 57 monitor: 57 allowed: 57
+thread 58 monitor: 58 allowed: 58
+thread 59 monitor: 59 allowed: 59
+thread 60 monitor: 60 allowed: 60
+thread 61 monitor: 61 allowed: 61
+thread 62 monitor: 62 allowed: 62
+thread 63 monitor: 63 allowed: 63
+thread 64 monitor: 64 allowed: 64
+thread 65 monitor: 65 allowed: 65
+thread 66 monitor: 66 allowed: 66
+thread 67 monitor: 67 allowed: 67
+thread 68 monitor: 68 allowed: 68
+thread 69 monitor: 69 allowed: 69
+thread 70 monitor: 70 allowed: 70
+thread 71 monitor: 71 allowed: 71
+thread 72 monitor: 72 allowed: 72
+thread 73 monitor: 73 allowed: 73
+thread 74 monitor: 74 allowed: 74
+thread 75 monitor: 75 allowed: 75
+thread 76 monitor: 76 allowed: 76
+thread 77 monitor: 77 allowed: 77
+thread 78 monitor: 78 allowed: 78
+thread 79 monitor: 79 allowed: 79
+thread 80 monitor: 80 allowed: 80
+thread 81 monitor: 81 allowed: 81
+thread 82 monitor: 82 allowed: 82
+thread 83 monitor: 83 allowed: 83
+thread 84 monitor: 84 allowed: 84
+thread 85 monitor: 85 allowed: 85
+thread 86 monitor: 86 allowed: 86
+thread 87 monitor: 87 allowed: 87
+thread 88 monitor: 88 allowed: 88
+thread 89 monitor: 89 allowed: 89
+thread 90 monitor: 90 allowed: 90
+thread 91 monitor: 91 allowed: 91
+thread 92 monitor: 92 allowed: 92
+thread 93 monitor: 93 allowed: 93
+thread 94 monitor: 94 allowed: 94
+thread 95 monitor: 95 allowed: 95
+Couldn't record kernel reference relocation symbol
+Symbol resolution may be skewed if relocation was used (e.g. kexec).
+Check /proc/kallsyms permission or run as root.
+couldn't open /proc/1/task/1/maps
+couldn't open /proc/1483/task/1483/maps
+couldn't open /proc/1575/task/1575/maps
+couldn't open /proc/17041/task/17041/maps
+couldn't open /proc/17070/task/17070/maps
+couldn't open /proc/17507/task/17507/maps
+couldn't open /proc/19674/task/19674/maps
+couldn't open /proc/19675/task/19675/maps
+couldn't open /proc/19676/task/19676/maps
+couldn't open /proc/19677/task/19677/maps
+couldn't open /proc/19681/task/19681/maps
+couldn't open /proc/2075152/task/2075152/maps
+couldn't open /proc/2223/task/2223/maps
+couldn't open /proc/2225/task/2225/maps
+couldn't open /proc/2230/task/2230/maps
+couldn't open /proc/2232/task/2232/maps
+couldn't open /proc/2234/task/2234/maps
+couldn't open /proc/2237/task/2237/maps
+couldn't open /proc/2261/task/2261/maps
+couldn't open /proc/2319/task/2319/maps
+couldn't open /proc/2820/task/2820/maps
+couldn't open /proc/2821/task/2821/maps
+couldn't open /proc/3246901/task/3246901/maps
+couldn't open /proc/3492/task/3492/maps
+couldn't open /proc/3494/task/3494/maps
+couldn't open /proc/3604/task/3604/maps
+couldn't open /proc/3706/task/3706/maps
+couldn't open /proc/3707/task/3707/maps
+couldn't open /proc/3965/task/3965/maps
+couldn't open /proc/4149334/task/4149334/maps
+couldn't open /proc/4162679/task/4162679/maps
+couldn't open /proc/4168405/task/4168405/maps
+couldn't open /proc/4168409/task/4168409/maps
+couldn't open /proc/4168411/task/4168411/maps
+couldn't open /proc/6257/task/6257/maps
+couldn't open /proc/852864/task/852864/maps
+couldn't open /proc/853057/task/853057/maps
+cmd_pipe: /hppfs/scratch/0C/h039vap/tmp/amplxe-tmp-h039vap/perf-pipe-4168506-55462009694017970
+
+4168590:perf-sync:ready:SYS=20589683911917078
+[ perf record: Woken up 7622 times to write data ]
+[ perf record: Captured and wrote 0.533 MB /dss/dsshome1/0C/h039vap/heatdir/VtuneData/MemoryAccess/data.0, compressed (original 0.831 MB, ratio is 4.698) ]

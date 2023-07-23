@@ -1,0 +1,20 @@
+#!/bin/bash
+
+#SBATCH -J heat
+#SBATCH -o job.out.%j
+#SBATCH -e job.out.%j
+#SBATCH --time=00:01:00
+#SBATCH --account=h039v
+#SBATCH --partition=test
+#SBATCH --nodes=1
+#SBATCH --ntasks=48
+#SBATCH --ntasks-per-node=48
+#SBATCH --cpus-per-task=1
+
+
+module load slurm_setup
+
+#export OMP_NUM_THREADS=1
+
+mpiexec -n $SLURM_NTASKS -genv I_MPI_DEBUG=4 ./heat test.dat 6 8
+

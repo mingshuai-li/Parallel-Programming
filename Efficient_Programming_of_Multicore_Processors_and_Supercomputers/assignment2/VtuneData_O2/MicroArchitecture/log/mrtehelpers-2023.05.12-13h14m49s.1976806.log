@@ -1,0 +1,5 @@
+131 [139901595113216] INFO mrtehelpers.mrteenv <> - Product libs directory: /dss/lrzsys/sys/spack/release/22.2.1/opt/x86_64/intel-oneapi-vtune/2021.7.1-gcc-ihh6yuf/vtune/2021.7.1/lib64
+131 [139901595113216] INFO mrtehelpers.mrteenv <> - File mask: amplxe_samplingmrte_clrprof*
+144 [139901595113216] INFO mrtehelpers.mrteenv <> - File name: libamplxe_samplingmrte_clrprof_1.0.so
+144 [139901595113216] INFO mrtehelpers.mrteenv <> - File mask: amplxe_samplingmrte_clrprof*
+157 [139901595113216] INFO mrtehelpers.mrteenv <> - File name: libamplxe_samplingmrte_clrprof_1.0.so

@@ -1,0 +1,3 @@
+To compile, type "$ make"
+To run locally, type "$ ./player X -p 7000". The default strategy is minimax with alpha-beta cutoff.
+To run on supermuc-ng, type "$ srun -N 1 -n 1 -w host1 --jobid JID ./player X -p 7000"
