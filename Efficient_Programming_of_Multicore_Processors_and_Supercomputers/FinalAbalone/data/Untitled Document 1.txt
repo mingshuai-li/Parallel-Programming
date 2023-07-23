@@ -1,8 +1,0 @@
-speed up 1 2 4 8 16 32 48
-different position * 4 (4 curves)/ one move / adpative depth / y axis speedup (based on evaluation persecond)/ x axis number of threads
-
-
-vtune
-
-
-number of evaluations / same fixed depth 4 / x axis different position * 4 / one move / compare miniax and alpha beta
