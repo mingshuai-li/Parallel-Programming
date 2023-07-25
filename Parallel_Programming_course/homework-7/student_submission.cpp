@@ -8,7 +8,7 @@
 #include <iostream>
 #include "Utility.h"
 #include "StringSearch.h"
-#include "mpi.h"
+#include <mpi.h>
 
 int longestCommonSubsequence(const unsigned char* str1, const unsigned char* str2, size_t len);
 
@@ -35,6 +35,7 @@ int main(int argc, char* argv[]) {
     // TODO@Students: Implement the steps from the slides in here.
     int rank, size;
     MPI_Status s;
+    MPI_Request send_request, recv_request;
 
     MPI_Init(&argc, &argv);
     MPI_Comm_rank(MPI_COMM_WORLD, &rank);
@@ -69,7 +70,8 @@ int main(int argc, char* argv[]) {
             int occurrences{0};
             std::size_t queryLength = length[queryId - 1];
 
-            MPI_Recv(&occurrences, 1, MPI_INT, queryId % (size - 1) + 1, 2, MPI_COMM_WORLD, &s);
+            MPI_Irecv(&occurrences, 1, MPI_INT, queryId % (size - 1) + 1, 2, MPI_COMM_WORLD, &recv_request);
+            MPI_Wait(&recv_request, &s);
             printf("Query %i: %i occurrences (query length %zu).\n", queryId, occurrences, queryLength);
         }
         std::cout << "DONE" << std::endl;
@@ -91,7 +93,7 @@ int main(int argc, char* argv[]) {
             MPI_Recv(&query[0], queryLength, MPI_CHAR, 0, 1, MPI_COMM_WORLD, &s);
 
             int occurrences = count_occurrences(&query[0], queryLength, document, DOCUMENT_SIZE);
-            MPI_Send(&occurrences, 1, MPI_INT, 0, 2, MPI_COMM_WORLD);
+            MPI_Isend(&occurrences, 1, MPI_INT, 0, 2, MPI_COMM_WORLD, &send_request);
         }
     }
 
